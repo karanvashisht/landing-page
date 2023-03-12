@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    background-color: #1f2937;
+    
+}
+
+.item{
+    border: 5px;
+    padding: 10px;
+}
+
+.tstyle{
+    color: white;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
