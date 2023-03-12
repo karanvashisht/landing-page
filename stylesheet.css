@@ -1,16 +1,42 @@
 .header{
     display: flex;
     background-color: #1f2937;
-    
 }
 
 .item{
+    margin: 20px;
     border: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .tstyle{
     color: white;
     font-size: large;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.imageStyle{
+    width: 130px;
+    height: auto;
+}
+
+.left{
+    margin-right: auto;
+}
+
+.center{
+    display: flex;
+    background-color: #1f2937;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn1 span{
+    background-color: #3882F6;
+    padding: 5px;
 }
