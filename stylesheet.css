@@ -1,112 +1,49 @@
-.header{
-    display: flex;
-    background-color: #1f2937;
-    border: 2px solid blue; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: stretch;
-}
-
-.box1{
-    background-color: #1f2937;
-    margin: 20px;
-    border: 5px;
-    padding: 5px;
-    width: 100px;
-    border: 2px solid red; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-}
-
-.item{
-    flex-grow: 1;
-    border: 2px solid green; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-} 
-
-.item1{
-    align-self: flex-start;
-    order: 0;
-}
-
-.item2{
-   
-    order: 1;
-}
-
-.item3{
-    
-    order: 2;
-}
-
-.item4{
-    
-    order: 3;
-}
-
-.item5{
-    
-    order: 4;
-}
-
-.item6{
-    order: 5;
-}
-
-.tstyle{
-    color: white;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-  }  
-
-
-.border{
-    border: 2px solid yellow; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-}
-
-
-
-
-
-.imageStyle{
-    width: 10px;
-    height: 70px;
-}
-
-.left{
-    margin-right: auto;
-}
-
-.center{
-    display: flex;
-    background-color: #1f2937;
-    height: 420px;
-    justify-content: space-between;
-    
-}
-
-.centerText{
-    display: flex;
-    justify-content: space-between;
-}
-
-.signup{
+.base{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
+
 }
 
-.btn1 span{
-    background-color: #3882F6;
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.FirstHalf{
+    display: flex;
+}
+
+.marginStart{
     padding: 5px;
+    margin: 5px;
+    border: 10px;
+    width: 150px;
 }
 
-.tstyle2{
-    align-items: center;
+.img{
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
+}
+
+
+.secondHalf{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.text{
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
+}
+
+.awesome{
+    background-color: #1f2937;
+    margin: 0%;
 }
