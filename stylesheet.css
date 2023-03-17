@@ -1,112 +1,184 @@
+.base{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
 .header{
     display: flex;
+    justify-content: space-between;
     background-color: #1f2937;
-    border: 2px solid blue; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: stretch;
 }
 
-.box1{
-    background-color: #1f2937;
-    margin: 20px;
-    border: 5px;
+.FirstHalf{
+    display: flex;
+}
+
+.marginStart{
     padding: 5px;
+    margin: 5px;
+    border: 10px;
+    width: 250px;
+}
+
+.img{
     width: 100px;
-    border: 2px solid red; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
 }
 
-.item{
-    flex-grow: 1;
-    border: 2px solid green; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
-} 
 
-.item1{
-    align-self: flex-start;
-    order: 0;
+.secondHalf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
-.item2{
-   
-    order: 1;
-}
-
-.item3{
-    
-    order: 2;
-}
-
-.item4{
-    
-    order: 3;
-}
-
-.item5{
-    
-    order: 4;
-}
-
-.item6{
-    order: 5;
-}
-
-.tstyle{
+.text{
+    padding: 5px;
+    margin: 5px;
+    border: 10px;
     color: white;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-  }  
-
-
-.border{
-    border: 2px solid yellow; /* sets a solid red border with 2px width */
-    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
-
-
-.imageStyle{
-    width: 10px;
-    height: 70px;
-}
-
-.left{
-    margin-right: auto;
+.aText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .center{
     display: flex;
     background-color: #1f2937;
-    height: 420px;
     justify-content: space-between;
-    
+    height: 400px;
 }
 
-.centerText{
+.text1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 46px;
+}
+
+.text2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.text3{
+    color: white;;
+    font-family: hero 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60px;
+    background-color: #3882F6;
+}
+
+.some{
+    font-size: 36px;
+    flex-basis: 100%;
+    align-self: center;
+    margin: 10px;
+    border: 10px;
+    padding: 10px;
+    color: #1f2937;
+}
+
+.rinfo{
     display: flex;
-    justify-content: space-between;
+    flex-basis: 100%;
+    align-self: center;
 }
 
-.signup{
+.simg{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.btn1 span{
-    background-color: #3882F6;
-    padding: 5px;
+.simg1{
+    border: 2px solid;
+    border-color: #3882F6;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
 }
 
-.tstyle2{
-    align-items: center;
+.subtext{
+    word-wrap: normal;
+    color: gray;
+}
+
+.quote{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote2{
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    font-size: 36px;
+}
+
+.sign{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.blue{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 50px;
+}
+
+.blue1{
+    display: flex;
+    background-color: #3B82F6;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    color:antiquewhite;
+}
+
+.t1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.t2{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn2{
+    background-color: #3B82F6;
+    border-radius: 10px;
+    height: 50px;
+    align-self: center;
+    border-color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
 }
